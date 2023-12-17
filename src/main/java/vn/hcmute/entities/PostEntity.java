@@ -33,7 +33,7 @@ public class PostEntity {
     private GroupEntity groupPost;
 	
 	@JsonProperty("content")
-	@Column(name = "content", columnDefinition = "NTEXT")
+	@Column(name = "content", columnDefinition = "text")
 
 	private String content;
 	@Column(name = "image", columnDefinition = "nvarchar(255)")
